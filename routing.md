@@ -73,3 +73,5 @@ http.get('*', (req: any, res: any) => {
 });
 ```
 This methodology will be improved in the future, but for now this remains the only way.
+
+### Next: [Database Setup]()
