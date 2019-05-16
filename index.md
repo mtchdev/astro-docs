@@ -4,8 +4,7 @@ Astro is a new backend framework written in TypeScript (can be compiled to JavaS
 
 ### Installation
 
-You can download the latest version of the CLI installer [here](https://google.com/).  
-
+[Download the latest version of the CLI installer](https://github.com/spliitzx/astro/raw/installer/astro-installer.zip).  
 Once you've downloaded & extracted the installer, open the directory in a terminal window and run `npm start` to begin the installation.  
 You will be prompted to enter certain fields (all of which are *optional*) and Astro will be installed in to a new `src/` directory.  
   
