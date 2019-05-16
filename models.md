@@ -94,4 +94,4 @@ interface SQLQueryModel {
 }
 ```
 
-### Next: [Controllers]()
+### Next: [Controllers](https://spliitzx.github.io/astro-docs/controllers)
