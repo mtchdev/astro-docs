@@ -22,4 +22,4 @@ export const DBConfig = {
 
 When you've configured your database configuration properly, you should continue to the next step which starts introducing database usage.  
 
-### Next: [Models]()
+### Next: [Models](https://spliitzx.github.io/astro-docs/models)

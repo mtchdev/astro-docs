@@ -12,4 +12,4 @@ You will be prompted to enter certain fields (all of which are *optional*) and A
 You should keep this installer if you wish to update Astro.
 
 ### More
-Get started with **Astro** by getting to know the [documentation]().
+Get started with **Astro** by learning [Routers](https://spliitzx.github.io/astro-docs/routing).
