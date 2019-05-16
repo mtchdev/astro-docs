@@ -51,4 +51,13 @@ this.next();
 this.exit();
 ```
 
+## Using Middleware in Routes
+As mentioned in [Routing](https://spliitzx.github.io/astro-docs/controllers), every route can accept a middleware parameter as the last parameter in the function. The middleware parameter can accept an **array**, for checking against multiple middleware, or a **single class** to check against one middleware.  
+```ts
+http.get('users', (response: any, request: any) => {
+    new UserControler().getUser();
+}, [AuthMiddleware, AdminPermissionMiddleware])
+```
+In the example above, this route needs 2 middleware to pass before executing the controller function. If only one middleware was required, you would omit the array.
+
 ## Next: [Database Schemas]()
