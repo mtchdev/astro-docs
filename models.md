@@ -41,6 +41,36 @@ All methods return a type `Promise<QueryResult>`, where `QueryResult` is an obje
 result: {
     // returned values
 }
+```  
+### All
+```ts
+var result = new User().all();
+```
+
+### Where
+```ts
+var result = new User().where({
+    username: 'John Doe'
+});
+```
+
+### Insert
+```ts
+new User().insert({
+    username: 'John Doe'
+});
+```
+
+### Update
+```ts
+new User().update({
+    values: {
+        username: 'Michael'
+    },
+    where: {
+        id: 1
+    }
+});
 ```
 
 ### Using the .save() Method
@@ -63,3 +93,5 @@ interface SQLQueryModel {
     update(params: Update): Promise<QueryResult>;
 }
 ```
+
+## Next: [Controllers]()
