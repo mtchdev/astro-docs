@@ -88,3 +88,15 @@ export class UserController extends Controller {
     }
 }
 ```
+
+## Requests
+As discussed in routing earlier, you can pass request parameters in a controller method and access it as an Express request:  
+
+```ts
+async getUser(request: any) {
+    var input = request.input; // form input
+    var params = request.params; // URL parameters
+}
+```
+
+## Next: [Middleware]()
