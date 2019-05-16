@@ -60,4 +60,4 @@ http.get('users', (response: any, request: any) => {
 ```
 In the example above, this route needs 2 middleware to pass before executing the controller function. If only one middleware was required, you would omit the array.
 
-## Next: [Database Schemas]()
+## Next: [Database Schemas](https://spliitzx.github.io/astro-docs/database-schema)

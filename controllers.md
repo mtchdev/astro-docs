@@ -99,4 +99,4 @@ async getUser(request: any) {
 }
 ```
 
-## Next: [Middleware]()
+## Next: [Middleware](https://spliitzx.github.io/astro-docs/middleware)
